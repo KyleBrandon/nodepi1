@@ -31,9 +31,8 @@ exports.off = function(req, res){
       if (err){
         res.send("ERROR");
       }
-
-      res.send("OFF");
-    });
+     });
+    res.send("OFF");
   })
 
 };
